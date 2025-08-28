@@ -24,7 +24,7 @@
     <repository>
       <id>ParasoftMavenPublic</id>
       <name>Parasoft Public Repository</name>
-      <url>http://build.parasoft.com/maven/</url>
+      <url>https://build.parasoft.com/maven/</url>
     </repository>
   </repositories>
 </project>
