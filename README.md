@@ -3,7 +3,10 @@
 - The Loop tool can be used to loop over chained tools.
 - Can be used as a stand alone tool or chained as an output.
 
-## Build
+## Download
+Download `looper.jar` from 'releases' section of Github repository
+
+## Build from source
 `mvn clean package`
 
 ## Usage
