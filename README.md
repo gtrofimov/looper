@@ -7,10 +7,12 @@
 `mvn clean package`
 
 ## Usage
-1. Add tool to a Test Suite or Responder suite
-2. Chain a tool to be looped over
-3. Configure the number of loops as an interger or a variable.
-4. Loop
+1. Add .jar to Preferences > System Properties and restart.
+2. Add tool as a standalone Test tool, or chained to another tool.
+3. Chain the tool(s) to the Loop Tool, which you wish to be looped.
+4. Configure the number of loops as an integer or a variable in the tool settings
+5. Loop
+6. Repeat Step 5.
 
 ## Resources
 Adding a Custom tool:
