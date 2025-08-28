@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="urn:ocm/parasoft/extensibility-framework/v1/extension" type="tool" name='Loop Tool' description='Tool to loop over chained output.'>
+  <class>com.gt.soavirt.tool.Looper</class> <!-- implements ICustomTool -->
+  <tool xmlns="http://schemas.parasoft.com/extensibility-framework/v1/tool"
+  			icon="loopy.gif"
+  	       useInputTab="true"
+           successIndicator="true"
+           showInToolList="common"
+           showInOutputList="common">
+  	<outputs>
+  		<output key="loop_counter" name="For each loop" />
+	</outputs>
+  </tool>
+  <form xmlns="urn:com/parasoft/extensibility-framework/gui">
+    <section label="Main Settings">
+    	<field id="count" label="Number of loops:" type="String" />
+ 	 </section>
+  </form>
+</extension>
